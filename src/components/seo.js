@@ -18,7 +18,16 @@ function SEO({ description, lang, meta, title }) {
           siteMetadata {
             title
             description
+            keywords
             author
+          }
+        }
+        allContentfulLink {
+          edges {
+            node {
+              title
+              url
+            }
           }
         }
       }
@@ -27,6 +36,8 @@ function SEO({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+
+
 
   return (
     <Helmet
@@ -43,6 +54,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:title`,
           content: title,
+        },
+        {
+          name: 'keywords',
+          content: site.siteMetadata.keywords,
         },
         {
           property: `og:description`,
@@ -72,6 +87,8 @@ function SEO({ description, lang, meta, title }) {
     />
   )
 }
+
+
 
 SEO.defaultProps = {
   lang: `en`,

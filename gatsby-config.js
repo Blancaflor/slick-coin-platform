@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Crypto Test Page`,
-    description: `Kickoff Crypto Coins`,
-    author: `@gatsbyjs`,
+    title: 'Start staking SLICK.',
+    description: 'Launch of Crypto Coins SLICK.',
+    keywords: 'SLICK crypto, crypto for stakers, crypto development, crypto app, crypto app staking, staking 2.0, XLM staking token, altcoin staking',
+    author: `@Blancaflor`,
   },
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
@@ -33,4 +35,18 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+      spaceId: 'vfjor17j5fuv',
+      accessToken: 'Y3mOI-68P2l9E-mXVRJt5jjp1P-SA0unP8K_ddAC2jU',
+      }
+    }
+  ],
 }
+
+
+
+
