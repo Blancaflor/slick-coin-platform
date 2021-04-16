@@ -9,8 +9,6 @@ import staticdata from '../../staticdata.json'
 import Cell from "../components/Cell"
 import styled from 'styled-components'
 
-<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-
 
 const SectionCaption = styled.p`
 position: relative;
