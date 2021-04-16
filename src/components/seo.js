@@ -33,7 +33,7 @@ function SEO({ description, lang, meta, title }) {
       }
     `
   )
-  
+
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
@@ -88,6 +88,8 @@ function SEO({ description, lang, meta, title }) {
     />
   )
 }
+
+<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
 
 
 
