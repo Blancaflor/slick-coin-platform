@@ -1,7 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import logo from '../images/logo-designcode.svg'
+import logo from '../images/logo-badger.png'
 import './Header.css'
 class Header extends React.Component {
   constructor(props) {
@@ -20,24 +20,24 @@ class Header extends React.Component {
     const scrollTop = window.pageYOffset
 
     if (scrollTop > 50) {
-      this.setState({ hasScrolled: true})
+      this.setState({ hasScrolled: true })
     }
     else {
       this.setState({ hasScrolled: false })
-   }
+    }
   }
 
   render() {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
-       <div className="HeaderGroup">
-      <Link to="/"><img src={logo} width="30" alt="" /></Link>
-      <Link to="/courses">Courses</Link>
-      <Link to="/downloads">Downloads</Link>
-      <Link to="/workshops">Workshops</Link>
-      <Link to="/buy"><button>Buy</button></Link>
-    </div>
-  </div>
+        <div className="HeaderGroup">
+          <Link to="/"><img src={logo} width="70" alt="" /></Link>
+          <Link to="/services">Services</Link>
+          <Link to="/team&advisors">Team&Advisors</Link>
+          <Link to="/roadmap">Roadmap</Link>
+          <Link to="/buy"><button>Buy</button></Link>
+        </div>
+      </div>
     )
   }
 }

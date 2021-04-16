@@ -38,11 +38,13 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="Hero">
       <div className="HeroGroup">
+        <img src={require("../images/logo-badger.png")?.default} width="100" alt="" />
         <h1>
-          Welcome on the <br /> platform <br /> of crypto SLICK coin.
+          Welcome on the <br /> crypto SLICK <br /> platform.
         </h1>
-        <p>Welcome to the page of SLICK coin.</p>
-        <p>Go get your SLICK coin!</p>
+
+        <p>Slick welcomes you.</p>
+        <p>Get your SLICK coin!</p>
         <Link to="/page-2/">Watch the video</Link> <br />
         <div className="Logos">
           <img src={require("../images/logo-sketch.png")?.default} width="50" alt="" />
@@ -61,72 +63,72 @@ const IndexPage = () => (
         <Card
           title="Design System"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")?.default}
+          image={require("../images/fractal.jpg")?.default}
         />
         <Card
           title="React for Designers"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")?.default}
+          image={require("../images/fractal.jpg")?.default}
         />
         <Card
           title="Sound Design"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")?.default}
+          image={require("../images/fractal.jpg")?.default}
         />
         <Card
           title="ARKit 2"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")?.default}
+          image={require("../images/fractal.jpg")?.default}
         />
       </div>
       <div className="CardGroup">
         <Card
           title="Design System"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")?.default}
+          image={require("../images/fractal.jpg")?.default}
         />
         <Card
           title="React for Designers"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")?.default}
+          image={require("../images/fractal.jpg")?.default}
         />
         <Card
           title="Sound Design"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")?.default}
+          image={require("../images/fractal.jpg")?.default}
         />
         <Card
           title="ARKit 2"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")?.default}
+          image={require("../images/fractal.jpg")?.default}
         />
       </div>
       <div className="CardGroup">
         <Card
           title="Design System"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")?.default}
+          image={require("../images/fractal.jpg")?.default}
         />
         <Card
           title="React for Designers"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")?.default}
+          image={require("../images/fractal.jpg")?.default}
         />
         <Card
           title="Sound Design"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")?.default}
+          image={require("../images/fractal.jpg")?.default}
         />
         <Card
           title="ARKit 2"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")?.default}
+          image={require("../images/fractal.jpg")?.default}
         />
       </div>
     </div>
     <Section
-      image={require('../images/wallpaper2.jpg')?.default}
-      logo={require('../images/logo-react.png')?.default}
+      image={require('../images/fractal.jpg')?.default}
+      logo={require('../images/logo-badger.png')?.default}
       title="React for Designers"
       text="Learn how to build a modern site using 
     React and the most efficient libraries to get 
