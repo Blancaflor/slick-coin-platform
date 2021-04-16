@@ -50,7 +50,7 @@
 
 .HeaderGroup a:hover {
   transform: translateY(-3px);
-  color: black;
+  color: #fff6ca;
   transition: 1s;
 }
 
