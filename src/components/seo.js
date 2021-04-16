@@ -89,8 +89,6 @@ function SEO({ description, lang, meta, title }) {
   )
 }
 
-<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-
 
 
 SEO.defaultProps = {
