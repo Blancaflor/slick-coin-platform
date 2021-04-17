@@ -30,10 +30,20 @@ a {
   text-align: center;
 }
 
+.Hero img {
+  line-height: 1.2;
+  opacity: 0;
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
 .Hero h1 {
   margin: 0;
   color: white;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 1.2;
   opacity: 0;
   animation: HeroAnimation;
@@ -61,6 +71,7 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 20px;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  background: linear-gradient(104deg, #3485ec 0, #71225e 100%);
 }
 
 .Hero a:hover {
@@ -118,7 +129,7 @@ a {
   font-size: 60px;
   text-align: center;
   font-weight: 700;
-  background: linear-gradient(104deg, #050a27 0, #4a54bc 100%);
+  background: linear-gradient(104deg, #273044 0, #b952be 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -148,5 +159,17 @@ a {
 @media (max-width: 720px) {
   .CardGroup {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 400px) {
+  svg {
+    height: 150px;
+  }
+}
+
+@media (max-width: 270px) {
+  svg {
+    height: 140px;
   }
 }

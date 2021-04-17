@@ -42,87 +42,86 @@ const IndexPage = () => (
         <h1>
           Welcome on the <br /> crypto SLICK <br /> platform.
         </h1>
-
         <p>Slick welcomes you.</p>
         <p>Get your SLICK coin!</p>
         <Link to="/page-2/">Watch the video</Link> <br />
         <div className="Logos">
-          <img src={require("../images/logo-sketch.png")?.default} width="50" alt="" />
-          <img src={require("../images/logo-figma.png")?.default} width="50" alt="" />
-          <img src={require("../images/logo-studio.png")?.default} width="50" alt="" />
-          <img src={require("../images/logo-framer.png")?.default} width="50" alt="" />
-          <img src={require("../images/logo-react.png")?.default} width="50" alt="" />
-          <img src={require("../images/logo-swift.png")?.default} width="50" alt="" />
+          <img src={require("../images/mera.png")?.default} width="95" alt="" />
+          {/* <img src={require("../images/logo-figma.png")?.default} width="50" alt="" /> */}
+          {/* <img src={require("../images/logo-studio.png")?.default} width="50" alt="" /> */}
+          {/* <img src={require("../images/logo-framer.png")?.default} width="50" alt="" /> */}
+          {/* <img src={require("../images/logo-react.png")?.default} width="50" alt="" /> */}
+          {/* <img src={require("../images/logo-swift.png")?.default} width="50" alt="" /> */}
         </div>
         <Wave />
       </div>
     </div>
     <div className="Cards">
-      <h2>11 courses, more coming</h2>
+      <h2>More info to come.</h2>
       <div className="CardGroup">
         <Card
           title="Design System"
           text="12 sections"
-          image={require("../images/fractal.jpg")?.default}
+          image={require("../images/reflection.png")?.default}
         />
         <Card
           title="React for Designers"
           text="12 sections"
-          image={require("../images/fractal.jpg")?.default}
+          image={require("../images/reflection6.png")?.default}
         />
         <Card
           title="Sound Design"
           text="12 sections"
-          image={require("../images/fractal.jpg")?.default}
+          image={require("../images/reflection3.png")?.default}
         />
         <Card
           title="ARKit 2"
           text="12 sections"
-          image={require("../images/fractal.jpg")?.default}
+          image={require("../images/reflection7.png")?.default}
         />
       </div>
       <div className="CardGroup">
         <Card
           title="Design System"
           text="12 sections"
-          image={require("../images/fractal.jpg")?.default}
+          image={require("../images/reflection.png")?.default}
         />
         <Card
           title="React for Designers"
           text="12 sections"
-          image={require("../images/fractal.jpg")?.default}
+          image={require("../images/reflection6.png")?.default}
         />
         <Card
           title="Sound Design"
           text="12 sections"
-          image={require("../images/fractal.jpg")?.default}
+          image={require("../images/reflection3.png")?.default}
         />
         <Card
           title="ARKit 2"
           text="12 sections"
-          image={require("../images/fractal.jpg")?.default}
+          image={require("../images/reflection7.png")?.default}
         />
       </div>
       <div className="CardGroup">
         <Card
           title="Design System"
           text="12 sections"
-          image={require("../images/fractal.jpg")?.default}
+          image={require("../images/reflection.png")?.default}
         />
         <Card
           title="React for Designers"
           text="12 sections"
-          image={require("../images/fractal.jpg")?.default}
+          image={require("../images/reflection6.png")?.default}
         />
         <Card
           title="Sound Design"
           text="12 sections"
-          image={require("../images/fractal.jpg")?.default}
+          image={require("../images/reflection3.png")?.default}
         />
         <Card
           title="ARKit 2"
           text="12 sections"
-          image={require("../images/fractal.jpg")?.default}
+          image={require("../images/reflection7.png")?.default}
         />
       </div>
     </div>

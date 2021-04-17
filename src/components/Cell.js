@@ -13,7 +13,7 @@ align-items: center;
 const CellImage = styled.div`
 width: 60px;
 height: 60px;
-background: black;
+background: white;
 border-radius: 10px;
 background-image: url(${props => props.image});
 background-size: 60px;
