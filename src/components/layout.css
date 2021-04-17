@@ -165,9 +165,21 @@ a {
   }
 }
 
+@media (max-width: 650px) {
+  svg {
+    height: 160px;
+  }
+}
+
 @media (max-width: 400px) {
   svg {
     height: 150px;
+  }
+}
+
+@media (max-width: 375px) {
+  svg {
+    display: none;
   }
 }
 

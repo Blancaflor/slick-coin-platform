@@ -53,9 +53,10 @@ const IndexPage = () => (
           <img src={require("../images/logo-react.png")?.default} width="60" alt="" />
           <img src={require("../images/logo-swift.png")?.default} width="60" alt="" />
         </div>
-        <Wave />
       </div>
+      <Wave />
     </div>
+
     <div className="Cards">
       <h2>More info to come.</h2>
       <div className="CardGroup">
