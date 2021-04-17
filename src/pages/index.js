@@ -40,7 +40,7 @@ const IndexPage = () => (
       <div className="HeroGroup">
         <img src={require("../images/logo-badger.png")?.default} width="150" alt="" />
         <h1>
-          Welcome on the <br /> crypto SLICK <br /> platform.
+          Welcome to the <br /> crypto SLICK <br /> platform.
         </h1>
         <p>Slick welcomes you.</p>
         <p>Get your SLICK coin!</p>
