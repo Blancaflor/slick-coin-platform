@@ -38,7 +38,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="Hero">
       <div className="HeroGroup">
-        <img src={require("../images/logo-badger.png")?.default} width="100" alt="" />
+        <img src={require("../images/logo-badger.png")?.default} width="150" alt="" />
         <h1>
           Welcome on the <br /> crypto SLICK <br /> platform.
         </h1>
@@ -46,12 +46,12 @@ const IndexPage = () => (
         <p>Get your SLICK coin!</p>
         <Link to="/page-2/">Watch the video</Link> <br />
         <div className="Logos">
-          <img src={require("../images/mera.png")?.default} width="95" alt="" />
-          {/* <img src={require("../images/logo-figma.png")?.default} width="50" alt="" /> */}
-          {/* <img src={require("../images/logo-studio.png")?.default} width="50" alt="" /> */}
-          {/* <img src={require("../images/logo-framer.png")?.default} width="50" alt="" /> */}
-          {/* <img src={require("../images/logo-react.png")?.default} width="50" alt="" /> */}
-          {/* <img src={require("../images/logo-swift.png")?.default} width="50" alt="" /> */}
+          <img src={require("../images/mera.png")?.default} width="60" alt="" />
+          <img src={require("../images/logo-figma.png")?.default} width="50" alt="" />
+          <img src={require("../images/logo-studio.png")?.default} width="50" alt="" />
+          <img src={require("../images/logo-framer.png")?.default} width="50" alt="" />
+          <img src={require("../images/logo-react.png")?.default} width="50" alt="" />
+          <img src={require("../images/logo-swift.png")?.default} width="50" alt="" />
         </div>
         <Wave />
       </div>
