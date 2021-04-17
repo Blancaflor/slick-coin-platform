@@ -47,11 +47,11 @@ const IndexPage = () => (
         <Link to="/page-2/">Watch the video</Link> <br />
         <div className="Logos">
           <img src={require("../images/mera.png")?.default} width="60" alt="" />
-          <img src={require("../images/logo-figma.png")?.default} width="50" alt="" />
-          <img src={require("../images/logo-studio.png")?.default} width="50" alt="" />
-          <img src={require("../images/logo-framer.png")?.default} width="50" alt="" />
-          <img src={require("../images/logo-react.png")?.default} width="50" alt="" />
-          <img src={require("../images/logo-swift.png")?.default} width="50" alt="" />
+          <img src={require("../images/logo-figma.png")?.default} width="60" alt="" />
+          <img src={require("../images/logo-studio.png")?.default} width="60" alt="" />
+          <img src={require("../images/logo-framer.png")?.default} width="60" alt="" />
+          <img src={require("../images/logo-react.png")?.default} width="60" alt="" />
+          <img src={require("../images/logo-swift.png")?.default} width="60" alt="" />
         </div>
         <Wave />
       </div>
