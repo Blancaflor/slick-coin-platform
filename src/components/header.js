@@ -33,7 +33,7 @@ class Header extends React.Component {
         <div className="HeaderGroup">
           {/*<Link to="/"><img src={logo} width="50" alt="" /></Link>*/}
           <br />
-          <Link to="/services">Services</Link>
+          <Link to="/">Services</Link>
           <Link to="/team&advisors">Team&Advisors</Link>
           <Link to="/roadmap">Roadmap</Link>
           <Link to="/buy"><button>Buy</button></Link>

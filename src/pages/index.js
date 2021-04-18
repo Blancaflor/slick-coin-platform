@@ -58,84 +58,33 @@ const IndexPage = () => (
     </div>
 
     <div className="Cards">
-      <h2>More info to come.</h2>
+      <h2>How to invest SLICK?</h2>
       <div className="CardGroup">
-        <Card
-          title="Design System"
-          text="12 sections"
+        <a href="https://lobstr.co/" target="_blank" ><Card
+          title="Create a Lobstr Account"
+          text="Account | Wallet"
           image={require("../images/reflection.png")?.default}
-        />
-        <Card
-          title="React for Designers"
-          text="12 sections"
+        /></a>
+        <Link to="/trustline"><Card
+          title="Create a trustline with SLICK"
+          text="Slick Address | QR Code"
           image={require("../images/reflection6.png")?.default}
-        />
-        <Card
-          title="Sound Design"
-          text="12 sections"
-          image={require("../images/reflection3.png")?.default}
-        />
-        <Card
-          title="ARKit 2"
-          text="12 sections"
-          image={require("../images/reflection7.png")?.default}
-        />
-      </div>
-      <div className="CardGroup">
-        <Card
-          title="Design System"
-          text="12 sections"
-          image={require("../images/reflection.png")?.default}
-        />
-        <Card
-          title="React for Designers"
-          text="12 sections"
-          image={require("../images/reflection6.png")?.default}
-        />
-        <Card
-          title="Sound Design"
-          text="12 sections"
-          image={require("../images/reflection3.png")?.default}
-        />
-        <Card
-          title="ARKit 2"
-          text="12 sections"
-          image={require("../images/reflection7.png")?.default}
-        />
-      </div>
-      <div className="CardGroup">
-        <Card
-          title="Design System"
-          text="12 sections"
-          image={require("../images/reflection.png")?.default}
-        />
-        <Card
-          title="React for Designers"
-          text="12 sections"
-          image={require("../images/reflection6.png")?.default}
-        />
-        <Card
-          title="Sound Design"
-          text="12 sections"
-          image={require("../images/reflection3.png")?.default}
-        />
-        <Card
-          title="ARKit 2"
-          text="12 sections"
-          image={require("../images/reflection7.png")?.default}
-        />
+        /></Link>
       </div>
     </div>
     <Section
       image={require('../images/fractal.jpg')?.default}
       logo={require('../images/logo-badger.png')?.default}
-      title="React for Designers"
-      text="Learn how to build a modern site using 
-    React and the most efficient libraries to get 
-    your site/product online. Get familiar with
-    components, Grid CSS, animations, interactions,
-    dynamic data withe Contentful and deploying your
-    site with Netifly."
+      title="More coming soon!"
+      text="Token Description:
+      The SLICK is a decentralized coin that makes it fluent to create easy trading & investing with one and other, family, friends, neighbours, etc.
+      Everything at the interest of the peoples positive input is at the interest of SLICK.
+
+      Conditions of Token
+      Customers & Owners of SLICK are given SLICK for every amount of Dollars, Euro's or which Fiat money they spend at whatever they want to negotiate with. 
+
+      Customers can redeem their SLICK for example for coffee, food, and merchandise at any place where SLICK is accepted as currency."
+      content="{The tokensale will start @ 0.0001$}"
     />
     <SectionCaption>12 sections - 6 hours</SectionCaption>
     <SectionCellGroup>

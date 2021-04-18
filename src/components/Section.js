@@ -46,7 +46,18 @@ line-height: 1.2;
 `
 
 const SectionText = styled.p`
+font-size: 27px;
 color: white;
+text-shadow: 1px 1px 2px black, 0 0 1px white, 0 0 3px black;
+`
+
+const SectionContent = styled.p`
+font-size: 27px;
+color: white;
+display: grid;
+grid-template-columns: 500px;
+text-align: right;
+padding-top: 30px;
 `
 
 const WaveBottom = styled.div`
@@ -65,12 +76,13 @@ top: -76px;
 
 const Section = props => (
     <SectionGroup image={props.image}>
-    <WaveTop><Wave /></WaveTop>
-    <WaveBottom><Wave /></WaveBottom>
+        <WaveTop><Wave /></WaveTop>
+        <WaveBottom><Wave /></WaveBottom>
         <SectionLogo src={props.logo} />
         <SectionTitleGroup>
             <SectionTitle>{props.title}</SectionTitle>
             <SectionText>{props.text}</SectionText>
+            <SectionContent>{props.content}</SectionContent>
         </SectionTitleGroup>
     </SectionGroup>
 )

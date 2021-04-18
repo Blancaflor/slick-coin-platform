@@ -188,3 +188,114 @@ a {
     height: 140px;
   }
 }
+
+.Hero2 {
+  background: url("../images/fractal2.png");
+  height: 900px;
+  background-size: cover;
+  background-position: center;
+}
+
+.HeroGroup2 {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 150px 50px;
+  text-align: center;
+}
+
+.Hero2 img {
+  line-height: 1.2;
+  opacity: 0;
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Hero2 h1 {
+  margin: 0;
+  color: black;
+  font-size: 54px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  opacity: 0;
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  text-shadow: 1px 1px 2px black, 0 0 4px white, 0 0 4px white;
+}
+
+.Hero2 p {
+  color: black;
+  font-size: 30px;
+  line-height: 1.5;
+  animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+  text-shadow: 1px 1px 2px black, 0 0 4px white, 0 0 4px white;
+}
+
+.Hero2 a {
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 9px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  background: linear-gradient(104deg, #3485ec 0, #71225e 100%);
+}
+
+.Hero2 a:hover {
+  background: white;
+  color: black;
+}
+
+@media (max-width: 640px) {
+  .HeroGroup2 {
+    padding: 100px 20px;
+  }
+
+  .Hero2 h1 {
+    font-size: 40px;
+  }
+
+  .Hero2 p {
+    font-size: 24px;
+  }
+}
+
+@keyframes HeroAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.Hero2 svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.Hero2 .Logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 40px;
+  margin: 60px 0;
+  justify-items: center;
+}
+
+@media (max-width: 640px) {
+  .Hero2 .Logos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

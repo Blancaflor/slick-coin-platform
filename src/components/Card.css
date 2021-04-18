@@ -1,5 +1,11 @@
 .Cards {
   padding-top: 100px;
+  padding-bottom: 300px;
+}
+
+.Cards h2 {
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
 
 .Card {
