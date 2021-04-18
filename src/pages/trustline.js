@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from 'styled-components'
 import Wave from "../components/Wave"
+import Section from "../components/Section"
 
 
 const SectionCaption = styled.p`
@@ -36,16 +37,26 @@ const IndexPage = () => (
         <img src={require("../images/logo-badger.png")?.default} width="150" alt="" />
         <br />
         <img src={require("../images/accept-trustline.png")?.default} width="180" alt="" />
-        <p>SLICK coin can be discovered by searching in the assets of Lobstr.</p>
-
+        <p>SLICK coin can be discovered by searching in the asset list of Lobstr.</p>
+        <a href="https://lobstr.co/" target="_blank" ><p>Not in ownership of a Lobstr account yet? Get one first!</p></a>
       </div>
       <Wave />
     </div>
 
-    <div>
+    <Section
+      image={require('../images/fractal3.png')?.default}
+      logo={require('../images/logo-badger.png')?.default}
+      title="More coming soon!"
+      text="Token Description:
+      The SLICK is a decentralized coin that makes it fluent to create easy trading & investing with one and other, family, friends, neighbours, etc.
+      Everything at the interest of the peoples positive input is at the interest of SLICK.
 
-    </div>
+      Conditions of Token
+      Customers & Owners of SLICK are given SLICK for every amount of Dollars, Euro's or which Fiat money they spend at whatever they want to negotiate with. 
 
+      Customers can redeem their SLICK for example for coffee, food, and merchandise at any place where SLICK is accepted as currency."
+      content="{The tokensale will start @ 0.0001$}"
+    />
 
   </Layout>
 )

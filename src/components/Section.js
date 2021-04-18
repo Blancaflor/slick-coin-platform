@@ -69,9 +69,8 @@ bottom: -76px;
 const WaveTop = styled.div`
 position: absolute;
 width: 100%;
-top: -6px;
 transform: rotate(180deg);
-top: -76px;
+top: -81px;
 `
 
 const Section = props => (

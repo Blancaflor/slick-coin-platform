@@ -86,6 +86,7 @@ const IndexPage = () => (
       Customers can redeem their SLICK for example for coffee, food, and merchandise at any place where SLICK is accepted as currency."
       content="{The tokensale will start @ 0.0001$}"
     />
+    {/*
     <SectionCaption>12 sections - 6 hours</SectionCaption>
     <SectionCellGroup>
       {staticdata.cells.map(cell => (
@@ -94,6 +95,7 @@ const IndexPage = () => (
           image={cell.image} />
       ))}
     </SectionCellGroup>
+    */}
   </Layout>
 )
 
