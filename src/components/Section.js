@@ -20,6 +20,7 @@ const SectionLogo = styled.img`
 align-self: flex-end;
 width: 120px;
 margin: 0 auto;
+margin-top: 30px;
 `
 
 const SectionTitleGroup = styled.div`
@@ -46,18 +47,18 @@ line-height: 1.2;
 `
 
 const SectionText = styled.p`
-font-size: 27px;
+font-size: 18px;
 color: white;
 text-shadow: 1px 1px 2px black, 0 0 1px white, 0 0 3px black;
 `
 
 const SectionContent = styled.p`
-font-size: 27px;
+font-size: 16px;
 color: white;
-display: grid;
-grid-template-columns: 500px;
-text-align: right;
-padding-top: 30px;
+grid-gap: 20px;
+grid-template-rows: auto 100%;
+text-align: justify;
+padding-top: 10px;
 `
 
 const WaveBottom = styled.div`

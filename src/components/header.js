@@ -1,7 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import logo from '../images/logo-badger.png'
+/* import logo from '../images/logo-badger.png' */
 import './Header.css'
 class Header extends React.Component {
   constructor(props) {
