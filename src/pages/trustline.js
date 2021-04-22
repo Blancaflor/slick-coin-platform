@@ -51,9 +51,6 @@ const IndexPage = () => (
       The SLICK is a decentralized coin that makes it fluent to create easy trading & investing with one and other, family, friends, neighbours, etc.
       Everything at the interest of the peoples positive input is at the interest of SLICK.
 
-      Conditions of Token
-      Customers & Owners of SLICK are given SLICK for every amount of Dollars, Euro's or which Fiat money they spend at whatever they want to negotiate with. 
-
       Customers can redeem their SLICK for example for coffee, food, and merchandise at any place where SLICK is accepted as currency."
       content="{The tokensale will start @ 0.0001$}"
     />

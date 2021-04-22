@@ -10,7 +10,6 @@ display: grid;
 grid-template-rows: 300px auto,
 grid-gap: 20px;
 position: relative;
-
 @media (max-width: 640px) {
     height: 820px;
 }
@@ -29,7 +28,6 @@ grid-template-columns: 300px auto;
 margin: 0 40px;
 grid-gap: 20px;
 grid-template-rows: auto 100%;
-
 @media (max-width: 720px) {
     grid-template-columns: 1fr;
 }
@@ -40,7 +38,6 @@ color: white;
 font-size: 60px;
 margin: 0;
 line-height: 1.2;
-
 @media (max-width: 720px){
     font-size: 40px;
 }
@@ -55,16 +52,25 @@ text-shadow: 1px 1px 2px black, 0 0 1px white, 0 0 3px black;
 const SectionContent = styled.p`
 font-size: 16px;
 color: white;
-grid-gap: 20px;
-grid-template-rows: auto 100%;
+
 text-align: justify;
 padding-top: 10px;
+
+@media (max-width: 720px){
+    color: black;
+    position: relative;
+    padding-top: -30px;
+}
 `
 
 const WaveBottom = styled.div`
 position: absolute;
 width: 100%;
 bottom: -76px;
+
+@media (max-width: 720px){
+    display: none;
+}
 `
 
 const WaveTop = styled.div`
@@ -72,6 +78,10 @@ position: absolute;
 width: 100%;
 transform: rotate(180deg);
 top: -81px;
+
+@media (max-width: 720px){
+    display: none;
+}
 `
 
 const Section = props => (

@@ -165,6 +165,12 @@ a {
   }
 }
 
+@media (max-width: 720px) {
+  svg {
+    display: none;
+  }
+}
+
 @media (max-width: 650px) {
   svg {
     height: 160px;
@@ -290,6 +296,114 @@ a {
 
 @media (max-width: 640px) {
   .Hero2 .Logos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* */
+
+.Hero3 {
+  background: url("../images/fractal3.png");
+  height: 1000px;
+  background-size: cover;
+  background-position: center;
+}
+
+.HeroGroup3 {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 150px 50px;
+  text-align: center;
+}
+
+.Hero3 img {
+  line-height: 1.2;
+  opacity: 0;
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Hero3 h1 {
+  margin: 0;
+  color: black;
+  font-size: 54px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  opacity: 0;
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  text-shadow: 1px 1px 2px black, 0 0 4px white, 0 0 4px white;
+}
+
+.Hero3 p {
+  color: black;
+  font-size: 30px;
+  line-height: 1.5;
+  animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+  text-shadow: 1px 1px 2px black, 0 0 4px white, 0 0 4px white;
+}
+
+.Hero3 a {
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.Hero3 a:hover {
+  background: white;
+  color: black;
+}
+
+@media (max-width: 640px) {
+  .HeroGroup3 {
+    padding: 100px 20px;
+  }
+
+  .Hero3 h1 {
+    font-size: 40px;
+  }
+
+  .Hero3 p {
+    font-size: 24px;
+  }
+}
+
+@keyframes HeroAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.Hero3 svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -60px;
+}
+
+.Hero3 .Logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 40px;
+  margin: 60px 0;
+  justify-items: center;
+}
+
+@media (max-width: 640px) {
+  .Hero3 .Logos {
     grid-template-columns: repeat(3, 1fr);
   }
 }
