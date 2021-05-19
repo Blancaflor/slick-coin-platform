@@ -34,7 +34,7 @@ class Header extends React.Component {
           {/*<Link to="/"><img src={logo} width="50" alt="" /></Link>*/}
           <br />
           <Link to="/">Services</Link>
-          <Link to="#">Team&Advisors</Link>
+          <Link to="/team&advisors">Team & Advisors</Link>
           <Link to="/roadmap">Roadmap</Link>
           <Link to="/trustline"><button>Buy</button></Link>
         </div>
