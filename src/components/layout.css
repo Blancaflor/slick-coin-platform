@@ -43,7 +43,7 @@ a {
 .Hero h1 {
   margin: 0;
   color: white;
-  font-size: 54px;
+
   text-transform: uppercase;
   line-height: 1.2;
   opacity: 0;
@@ -88,7 +88,7 @@ a {
   }
 
   .Hero h1 {
-    font-size: 40px;
+    font-size: 18px;
   }
 
   .Hero p {
