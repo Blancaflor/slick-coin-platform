@@ -39,7 +39,6 @@ const IndexPage = () => (
                 <div className="two"><img src={require("../images/cto.jpg")?.default} width="150" alt="" /></div>
                 <p>Founder & CTO</p>
             </div>
-            <Wave />
         </div>
 
 
