@@ -40,7 +40,6 @@ const IndexPage = () => (
         <p>SLICK coin can be discovered by searching in the asset list of Lobstr.</p>
         <a href="https://lobstr.co/" target="_blank" ><p>Not in ownership of a Lobstr account yet? Get one first!</p></a>
       </div>
-      <Wave />
     </div>
 
     <Section

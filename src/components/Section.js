@@ -86,7 +86,7 @@ top: -81px;
 
 const Section = props => (
     <SectionGroup image={props.image}>
-        <WaveTop><Wave /></WaveTop>
+        <WaveTop></WaveTop>
         <WaveBottom><Wave /></WaveBottom>
         <SectionLogo src={props.logo} />
         <SectionTitleGroup>
