@@ -44,6 +44,7 @@ line-height: 1.2;
 `
 
 const SectionText = styled.p`
+white-space: pre-wrap;
 font-size: 18px;
 color: white;
 text-shadow: 1px 1px 2px black, 0 0 1px white, 0 0 3px black;
