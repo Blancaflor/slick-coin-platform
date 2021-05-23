@@ -4,12 +4,12 @@ import "./layout.css"
 const Wave = () => (
   <svg
     width="100%"
-    height="172"
+    height="220"
     viewBox="0 0 2560 172"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <path fill="white">
+    <path fill="#FCCA00">
       <animate
         repeatCount="indefinite"
         fill="freeze"
