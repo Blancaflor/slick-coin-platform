@@ -65,8 +65,9 @@ const IndexPage = () => (
         <h1>
           Welcome to the <br /> SLICK <br /> platform
         </h1>
-
+        <br /><br />
         <p>Get your SLICK coin!</p>
+        <br /><br />
         <Link to="#">Watch the video</Link> <br />
         <div className="Logos">
           <img src={require("../images/mera.png")?.default} width="60" alt="" />
@@ -99,7 +100,7 @@ const IndexPage = () => (
         /></Link>
         <a href="https://lobstr.co/" target="_blank" ><Card
           title="Create a Trust Wallet or Metamask"
-          text="Account | Wallet"
+          text="Wallet"
           image={require("../images/GoldenHoney.png")?.default}
         /></a>
         <a><Card

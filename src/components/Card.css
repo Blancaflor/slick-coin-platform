@@ -21,6 +21,7 @@
 .Card:hover {
   transform: scale(1.1, 1.1);
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 2px black, 0 0 4px white, 0 0 4px white;
 }
 
 .Card:hover img {
@@ -36,7 +37,7 @@
 
 .Card h3 {
   color: #050505;
-  font-size: 30px;
+  font-size: 23px;
   margin: 20px 0 0 20px;
   width: 190px;
   box-shadow: 0 30px 60px rgba(white);
