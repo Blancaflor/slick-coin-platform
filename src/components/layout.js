@@ -12,6 +12,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 
+<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"></link>
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -27,7 +29,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header />
-        {children}
+      {children}
 
     </>
   )

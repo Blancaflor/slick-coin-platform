@@ -11,7 +11,6 @@ import styled from 'styled-components'
 
 <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"></link>
 
-
 const SectionCaption = styled.p`
 position: relative;
 top: 30px;
