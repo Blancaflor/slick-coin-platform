@@ -43,7 +43,7 @@ const IndexPage = () => (
     </div>
 
     <Section
-      image={require('../images/fractal3.png')?.default}
+      image={require('../images/GreyHoney.png')?.default}
       logo={require('../images/logo-badger.png')?.default}
       title="More coming soon!"
       text="Token Description:

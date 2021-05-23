@@ -40,7 +40,7 @@ const IndexPage = () => (
       <div className="HeroGroup">
         <img src={require("../images/logo-badger.png")?.default} width="150" alt="" />
         <h1>
-          Welcome to the <br /> SLICK <br /> platform.
+          Welcome to the <br /> SLICK <br /> platform
         </h1>
 
         <p>Get your SLICK coin!</p>
@@ -70,10 +70,22 @@ const IndexPage = () => (
           text="Slick Address | QR Code"
           image={require("../images/reflection6.png")?.default}
         /></Link>
+        <a href="https://lobstr.co/" target="_blank" ><Card
+          title="Create a Trust Wallet or Metamask"
+          text="Account | Wallet"
+          image={require("../images/reflection.png")?.default}
+        /></a>
+        <a><Card
+          title="Slick PancakeSwap Address"
+          text="Slick Address | QR Code"
+          image={require("../images/reflection6.png")?.default}
+        />
+        </a>
+
       </div>
     </div>
     <Section
-      image={require('../images/fractal.jpg')?.default}
+      image={require('../images/GreyHoney.png')?.default}
       logo={require('../images/logo-badger.png')?.default}
       title="More coming soon!"
       text="Token Description:

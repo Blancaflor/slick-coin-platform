@@ -17,7 +17,7 @@ a {
 }
 
 .Hero {
-  background: url("../images/fractal.jpg");
+  background: url("../images/GreyBrightHoney.png");
   height: 900px;
   background-size: cover;
   background-position: center;
@@ -195,7 +195,7 @@ a {
 }
 
 .Hero2 {
-  background: url("../images/fractal.jpg");
+  background: url("../images/GreyBrightHoney.png");
   height: 1000px;
   background-size: cover;
   background-position: center;
@@ -235,7 +235,7 @@ a {
 
 .Hero2 p {
   color: black;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 1.5;
   animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
@@ -302,7 +302,7 @@ a {
 /* */
 
 .Hero3 {
-  background: url("../images/fractal3.png");
+  background: url("../images/GreyBrightHoney.png");
   height: 1000px;
   background-size: cover;
   background-position: center;
@@ -410,7 +410,7 @@ a {
 /* */
 
 .Hero4 {
-  background: url("../images/fractal3.png");
+  background: url("../images/GreyBrightHoney.png");
   height: 1000px;
   background-size: cover;
   background-position: center;
