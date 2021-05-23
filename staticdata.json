@@ -2,51 +2,51 @@
   "cells": [
     {
       "title": "Intro to React",
-      "image": "https://i.ibb.co/x1N4Xx0/logo-badger-trans.png"
+      "image": "https://i.postimg.cc/1XvzHPND/logo-badger.png"
     },
     {
       "title": "Basic Styling in CSS",
-      "image": "https://i.ibb.co/x1N4Xx0/logo-badger-trans.png"
+      "image": "https://i.postimg.cc/1XvzHPND/logo-badger.png"
     },
     {
       "title": "Adaptive Layout with CSS Grid",
-      "image": "https://i.ibb.co/x1N4Xx0/logo-badger-trans.png"
+      "image": "https://i.postimg.cc/1XvzHPND/logo-badger.png"
     },
     {
       "title": "Interactions and Animations",
-      "image": "https://i.ibb.co/x1N4Xx0/logo-badger-trans.png"
+      "image": "https://i.postimg.cc/1XvzHPND/logo-badger.png"
     },
     {
       "title": "SVG Animation",
-      "image": "https://i.ibb.co/x1N4Xx0/logo-badger-trans.png"
+      "image": "https://i.postimg.cc/1XvzHPND/logo-badger.png"
     },
     {
       "title": "Components and Props",
-      "image": "https://i.ibb.co/x1N4Xx0/logo-badger-trans.png"
+      "image": "https://i.postimg.cc/1XvzHPND/logo-badger.png"
     },
     {
       "title": "States and Events",
-      "image": "https://i.ibb.co/x1N4Xx0/logo-badger-trans.png"
+      "image": "https://i.postimg.cc/1XvzHPND/logo-badger.png"
     },
     {
       "title": "Styled Components",
-      "image": "https://i.ibb.co/x1N4Xx0/logo-badger-trans.png"
+      "image": "https://i.postimg.cc/1XvzHPND/logo-badger.png"
     },
     {
       "title": "Static Data with JSON",
-      "image": "https://i.ibb.co/x1N4Xx0/logo-badger-trans.png"
+      "image": "https://i.postimg.cc/1XvzHPND/logo-badger.png"
     },
     {
       "title": "GraphQL with Contentful",
-      "image": "https://i.ibb.co/x1N4Xx0/logo-badger-trans.png"
+      "image": "https://i.postimg.cc/1XvzHPND/logo-badger.png"
     },
     {
       "title": "Publish to Netlify",
-      "image": "https://i.ibb.co/x1N4Xx0/logo-badger-trans.png"
+      "image": "https://i.postimg.cc/1XvzHPND/logo-badger.png"
     },
     {
       "title": "Payment with Stripe Checkout",
-      "image": "https://i.ibb.co/x1N4Xx0/logo-badger-trans.png"
+      "image": "https://i.postimg.cc/1XvzHPND/logo-badger.png"
     }
   ]
 }

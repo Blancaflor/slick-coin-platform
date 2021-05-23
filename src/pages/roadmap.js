@@ -34,6 +34,29 @@ padding: 0 20px;
   grid-template-columns: repeat(1, 1fr);
 }
 `
+const SectionGroup = styled.div`
+background: url(${props => props.image});
+height: 180px;
+background-size: cover;
+display: grid;
+grid-template-rows: 150px auto,
+grid-gap: 20px;
+position: relative;
+@media (max-width: 640px) {
+    height: 1400px;
+}
+`
+
+const WaveTop = styled.div`
+position: absolute;
+width: 100%;
+transform: rotate(180deg);
+top: -10px;
+
+@media (max-width: 720px){
+    
+}
+`
 
 const IndexPage = () => (
     <Layout>
@@ -62,112 +85,114 @@ const IndexPage = () => (
             </div>
             <Wave />
         </div>
+        <SectionGroup>
+            <WaveTop><Wave /></WaveTop>
+            <div id="Roadmap"></div>
+            <VerticalTimeline>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: '#293E3F', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(41, 62, 63)' }}
+                    date="2011 - present"
+                    iconStyle={{ background: '#293E3F', color: '#fff' }}
 
+                >
+                    <h3 className="vertical-timeline-element-title">Creative Director</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                    <p>
+                        Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: '#293E3F', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(41, 62, 63)' }}
+                    date="2011 - present"
+                    iconStyle={{ background: '#293E3F', color: '#fff' }}
 
-        <VerticalTimeline>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{ background: 'rgb(47, 26, 41)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(47, 26, 41)' }}
-                date="2011 - present"
-                iconStyle={{ background: 'rgb(47, 26, 41)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">Art Director</h3>
+                    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+                    <p>
+                        Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: '#091010', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(9, 16, 16)' }}
+                    date="April 2013"
+                    iconStyle={{ background: '#091010', color: '#fff' }}
 
-            >
-                <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-                <p>
-                    Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-    </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{ background: 'rgb(47, 26, 41)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(47, 26, 41)' }}
-                date="2010 - 2011"
-                iconStyle={{ background: 'rgb(47, 26, 41)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">Web Designer</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+                    <p>
+                        User Experience, Visual Design
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: '#091010', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(9, 16, 16)' }}
+                    date="April 2013"
+                    iconStyle={{ background: '#091010', color: '#fff' }}
 
-            >
-                <h3 className="vertical-timeline-element-title">Art Director</h3>
-                <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-                <p>
-                    Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-    </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{ background: 'rgb(47, 26, 41)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(47, 26, 41)' }}
-                date="2008 - 2010"
-                iconStyle={{ background: 'rgb(47, 26, 41)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">Web Designer</h3>
+                    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+                    <p>
+                        User Experience, Visual Design
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    contentStyle={{ background: '#F3B800', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(243, 184, 0)' }}
+                    date="April 2013"
+                    iconStyle={{ background: '#F3B800', color: '#fff' }}
 
-            >
-                <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-                <p>
-                    User Experience, Visual Design
-    </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{ background: 'rgb(47, 26, 41)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(47, 26, 41)' }}
-                date="2006 - 2008"
-                iconStyle={{ background: 'rgb(47, 26, 41)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+                    <p>
+                        Strategy, Social Media
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    contentStyle={{ background: '#F3B800', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(243, 184, 0)' }}
+                    date="April 2013"
+                    iconStyle={{ background: '#F3B800', color: '#fff' }}
 
-            >
-                <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-                <p>
-                    User Experience, Visual Design
-    </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                contentStyle={{ background: 'rgb(148, 60, 142)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(148, 60, 142)' }}
-                date="April 2013"
-                iconStyle={{ background: 'rgb(148, 60, 142)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+                    <p>
+                        Creative Direction, User Experience, Visual Design
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    contentStyle={{ background: '#F3B800', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  rgb(243, 184, 0)' }}
+                    date="April 2013"
+                    iconStyle={{ background: '#F3B800', color: '#fff' }}
 
-            >
-                <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-                <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-                <p>
-                    Strategy, Social Media
-    </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                contentStyle={{ background: 'rgb(148, 60, 142)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(148, 60, 142)' }}
-                date="November 2012"
-                iconStyle={{ background: 'rgb(148, 60, 142)', color: '#fff' }}
+                >
+                    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+                    <p>
+                        Creative Direction, Visual Design
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    iconStyle={{ background: '#F3B800', color: '#fff' }}
 
-            >
-                <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-                <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-                <p>
-                    Creative Direction, User Experience, Visual Design
-    </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                contentStyle={{ background: 'rgb(148, 60, 142)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(148, 60, 142)' }}
-                date="2002 - 2006"
-                iconStyle={{ background: 'rgb(148, 60, 142)', color: '#fff' }}
-
-            >
-                <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-                <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-                <p>
-                    Creative Direction, Visual Design
-    </p>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-                iconStyle={{ background: 'rgb(249, 196, 118)', color: '#fff' }}
-
-            />
-        </VerticalTimeline>
+                />
+            </VerticalTimeline>
+        </SectionGroup>
 
         {/*
     <SectionCaption>12 sections - 6 hours</SectionCaption>

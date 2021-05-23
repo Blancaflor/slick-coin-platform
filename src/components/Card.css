@@ -1,10 +1,8 @@
 .Cards {
-  padding-top: 100px;
-  padding-bottom: 300px;
+  height: 100%;
 }
 
 .Cards h2 {
-  padding-top: 40px;
   padding-bottom: 10px;
 }
 
@@ -37,10 +35,11 @@
 }
 
 .Card h3 {
-  color: white;
+  color: #050505;
   font-size: 30px;
   margin: 20px 0 0 20px;
   width: 190px;
+  box-shadow: 0 30px 60px rgba(white);
 }
 
 .Card p {

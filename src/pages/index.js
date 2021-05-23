@@ -33,6 +33,30 @@ padding: 0 20px;
 }
 `
 
+const SectionGroup = styled.div`
+background: url(${props => props.image});
+height: 180px;
+background-size: cover;
+display: grid;
+grid-template-rows: 150px auto,
+grid-gap: 20px;
+position: relative;
+@media (max-width: 640px) {
+    height: 1400px;
+}
+`
+
+const WaveTop = styled.div`
+position: absolute;
+width: 100%;
+transform: rotate(180deg);
+top: -10px;
+
+@media (max-width: 720px){
+    
+}
+`
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -44,7 +68,7 @@ const IndexPage = () => (
         </h1>
 
         <p>Get your SLICK coin!</p>
-        <Link to="/page-2/">Watch the video</Link> <br />
+        <Link to="#">Watch the video</Link> <br />
         <div className="Logos">
           <img src={require("../images/mera.png")?.default} width="60" alt="" />
           <img src={require("../images/logo-figma.png")?.default} width="60" alt="" />
@@ -57,50 +81,51 @@ const IndexPage = () => (
       <Wave />
     </div>
 
+
     <div className="Cards">
+      <SectionGroup>
+        <WaveTop><Wave /></WaveTop>
+      </SectionGroup>
       <h2>How to invest SLICK?</h2>
       <div className="CardGroup">
         <a href="https://lobstr.co/" target="_blank" ><Card
           title="Create a Lobstr Account"
           text="Account | Wallet"
-          image={require("../images/reflection.png")?.default}
+          image={require("../images/GoldenHoney.png")?.default}
         /></a>
         <Link to="/trustline"><Card
           title="Create a trustline with SLICK"
           text="Slick Address | QR Code"
-          image={require("../images/reflection6.png")?.default}
+          image={require("../images/GoldenHoney.png")?.default}
         /></Link>
         <a href="https://lobstr.co/" target="_blank" ><Card
           title="Create a Trust Wallet or Metamask"
           text="Account | Wallet"
-          image={require("../images/reflection.png")?.default}
+          image={require("../images/GoldenHoney.png")?.default}
         /></a>
         <a><Card
           title="Slick PancakeSwap Address"
           text="Slick Address | QR Code"
-          image={require("../images/reflection6.png")?.default}
+          image={require("../images/GoldenHoney.png")?.default}
         />
         </a>
 
       </div>
+      <Wave />
     </div>
+
     <Section
       image={require('../images/GreyHoney.png')?.default}
       logo={require('../images/logo-badger.png')?.default}
       title="More coming soon!"
-      text="Token Description:
-      The SLICK is a decentralized coin that makes it fluent to create easy trading & investing with one and other, family, friends, neighbours, etc.
-      
-      Everything at the interest of the peoples positive input is at the interest of SLICK.
-     
-      Conditions of Token
-      Customers & Owners of SLICK are given SLICK for every amount of Dollars, Euro's or which Fiat money they spend at whatever they want to negotiate with. 
-      
-      Customers can redeem their SLICK for example for coffee, food, and merchandise at any place where SLICK is accepted as currency."
-      content="{The tokensale will start @ 0.0001$}"
+      text=""
+      content=""
     />
-    {/*
-    <SectionCaption>12 sections - 6 hours</SectionCaption>
+
+    <SectionGroup>
+      <WaveTop><Wave /></WaveTop>
+    </SectionGroup>
+    <SectionCaption>ROADMAP</SectionCaption>
     <SectionCellGroup>
       {staticdata.cells.map(cell => (
         <Cell
@@ -108,8 +133,9 @@ const IndexPage = () => (
           image={cell.image} />
       ))}
     </SectionCellGroup>
-    */}
+
   </Layout>
 )
 
 export default IndexPage
+

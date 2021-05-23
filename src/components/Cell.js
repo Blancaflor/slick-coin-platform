@@ -3,11 +3,12 @@ import styled from 'styled-components'
 
 const CellGroup = styled.div`
 position: relative;
-top: 30px;
+top: 90px;
 display: grid;
 grid-template-columns: 60px auto;
 grid-gap: 25px;
 align-items: center;
+height: 150px;
 `
 
 const CellImage = styled.div`

@@ -4,14 +4,14 @@ import Wave from './Wave'
 
 const SectionGroup = styled.div`
 background: url(${props => props.image});
-height: 720px;
+height: 900px;
 background-size: cover;
 display: grid;
-grid-template-rows: 300px auto,
+grid-template-rows: 150px auto,
 grid-gap: 20px;
 position: relative;
 @media (max-width: 640px) {
-    height: 820px;
+    height: 1400px;
 }
 `
 
@@ -44,16 +44,19 @@ line-height: 1.2;
 `
 
 const SectionText = styled.p`
-white-space: pre-wrap;
+text-align: justify;
 font-size: 18px;
 color: white;
 text-shadow: 1px 1px 2px black, 0 0 1px white, 0 0 3px black;
 `
 
+
+
+
 const SectionContent = styled.p`
+position: fixed;
 font-size: 16px;
 color: white;
-
 text-align: justify;
 padding-top: 10px;
 
@@ -67,10 +70,10 @@ padding-top: 10px;
 const WaveBottom = styled.div`
 position: absolute;
 width: 100%;
-bottom: -76px;
+bottom: -5px;
 
 @media (max-width: 720px){
-    display: none;
+    
 }
 `
 
@@ -78,21 +81,36 @@ const WaveTop = styled.div`
 position: absolute;
 width: 100%;
 transform: rotate(180deg);
-top: -81px;
+top: -10px;
 
 @media (max-width: 720px){
-    display: none;
+    
 }
 `
 
 const Section = props => (
     <SectionGroup image={props.image}>
-        <WaveTop></WaveTop>
+        <WaveTop><Wave /></WaveTop>
         <WaveBottom><Wave /></WaveBottom>
         <SectionLogo src={props.logo} />
         <SectionTitleGroup>
             <SectionTitle>{props.title}</SectionTitle>
-            <SectionText>{props.text}</SectionText>
+            <SectionText><p>Token Description:
+            The SLICK is a decentralized coin that makes it fluent to create easy trading & investing with one and other, family, friends, neighbours, etc.
+            <br />
+                <br />
+            Everything at the interest of the peoples positive input is at the interest of SLICK.
+            <br />
+                <br />
+            Conditions of Token
+            Customers & Owners of SLICK are given SLICK for every amount of Dollars, Euro's or which Fiat money they spend at whatever they want to negotiate with.
+            <br />
+                <br />
+            Customers can redeem their SLICK for example for coffee, food, and merchandise at any place where SLICK is accepted as currency.
+            <br />
+                <br />
+            The tokensale will start @ 0.0001$
+            </p></SectionText>
             <SectionContent>{props.content}</SectionContent>
         </SectionTitleGroup>
     </SectionGroup>
