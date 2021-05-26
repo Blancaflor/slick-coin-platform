@@ -7,7 +7,7 @@
 }
 
 .Card {
-  width: 300px;
+  width: 270px;
   height: 225px;
   position: relative;
   overflow: hidden;
@@ -36,7 +36,7 @@
 }
 
 .Card h3 {
-  color: #050505;
+  color: white;
   font-size: 23px;
   margin: 20px 0 0 20px;
   width: 190px;
@@ -44,7 +44,7 @@
 }
 
 .Card p {
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 18px;

@@ -38,7 +38,7 @@ const IndexPage = () => (
         <br />
         <img src={require("../images/accept-trustline.png")?.default} width="180" alt="" />
         <p>SLICK coin can be discovered by searching in the asset list of Lobstr.</p>
-        <a href="https://lobstr.co/" target="_blank" ><p>Not in ownership of a Lobstr account yet? Get one first!</p></a>
+        <a class="testbutton" href="https://lobstr.co/"><p>Not in ownership of a Lobstr account yet? Get one first!</p></a>
       </div>
       <Wave />
     </div>

@@ -9,30 +9,28 @@ import staticdata from '../../staticdata.json'
 import Cell from "../components/Cell"
 import styled from 'styled-components'
 
-<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"></link>
 
-const SectionCaption = styled.p`
-position: relative;
-top: 30px;
-font-weight: 600;
-font-size: 18px;
-text-transition: uppercase;
-color: #94A4BA;
-text-align: center;
-`
+  const SectionCaption = styled.p`
+  position: relative;
+  top: 30px;
+  font-weight: 600;
+  font-size: 18px;
+  text-transition: uppercase;
+  color: #94A4BA;
+  text-align: center;
+  `
 
-const SectionCellGroup = styled.div`
-max-width: 800px;
-margin: 0 auto 100px;
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-column-gap: 20px;
-padding: 0 20px;
+  const SectionCellGroup = styled.div`
+  max-width: 800px;
+  margin: 0 auto 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
 
-@media (max-width: 800px) {
-  grid-template-columns: repeat(1, 1fr);
-}
-`
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  `
 
 const SectionGroup = styled.div`
 background: url(${props => props.image});
@@ -43,7 +41,7 @@ grid-template-rows: 150px auto,
 grid-gap: 20px;
 position: relative;
 @media (max-width: 640px) {
-}
+  }
 `
 
 const WaveTop = styled.div`
@@ -53,8 +51,8 @@ transform: rotate(180deg);
 top: -10px;
 
 @media (max-width: 720px){
-    
-}
+
+  }
 `
 
 const IndexPage = () => (
@@ -104,7 +102,7 @@ const IndexPage = () => (
           text="Wallet"
           image={require("../images/GoldenHoney.png")?.default}
         /></a>
-        <a><Card
+        <a href=""><Card
           title="Slick PancakeSwap Address"
           text="Slick Address | QR Code"
           image={require("../images/GoldenHoney.png")?.default}
