@@ -41,6 +41,7 @@ grid-template-rows: 150px auto,
 grid-gap: 20px;
 position: relative;
 @media (max-width: 640px) {
+
   }
 `
 
