@@ -10,7 +10,7 @@ import Cell from "../components/Cell"
 import styled from 'styled-components'
 
 
-  const SectionCaption = styled.p`
+const SectionCaption = styled.p`
   position: relative;
   top: 30px;
   font-weight: 600;
@@ -20,7 +20,7 @@ import styled from 'styled-components'
   text-align: center;
   `
 
-  const SectionCellGroup = styled.div`
+const SectionCellGroup = styled.div`
   max-width: 800px;
   margin: 0 auto 100px;
   display: grid;
@@ -115,7 +115,7 @@ const IndexPage = () => (
     </div>
 
     <Section
-      image={require('../images/GreyHoney.png')?.default}
+      image={require('../images/GreyHoney.jpg')?.default}
       logo={require('../images/logo-badger.png')?.default}
       title="More coming soon!"
       text=""
