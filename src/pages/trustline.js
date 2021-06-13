@@ -37,8 +37,8 @@ const IndexPage = () => (
         <img src={require("../images/logo-badger.png")?.default} width="150" alt="" />
         <br />
         <img src={require("../images/accept-trustline.png")?.default} width="180" alt="" />
-        <p>SLICK coin can be discovered by searching in the asset list of Lobstr.</p>
-        <a class="testbutton" href="https://lobstr.co/"><p>Not in ownership of a Lobstr account yet? Get one first!</p></a>
+        <p href="#">SLICK coin can be discovered by searching in the asset list of Lobstr.</p>
+        <a class="Account" href="https://lobstr.co/"><p>Not in ownership of a Lobstr account yet? Get one first!</p></a>
       </div>
       <Wave />
     </div>

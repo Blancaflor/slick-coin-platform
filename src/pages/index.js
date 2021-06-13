@@ -98,7 +98,7 @@ const IndexPage = () => (
           text="Slick Address | QR Code"
           image={require("../images/GoldenHoney.png")?.default}
         /></Link>
-        <a href="https://lobstr.co/" target="_blank" ><Card
+        <a href="https://trustwallet.com/" target="_blank" ><Card
           title="Create a Trust Wallet or Metamask"
           text="Wallet"
           image={require("../images/GoldenHoney.png")?.default}

@@ -28,6 +28,7 @@ grid-template-columns: 300px auto;
 margin: 0 40px;
 grid-gap: 20px;
 grid-template-rows: auto 100%;
+font-size: 80px;
 @media (max-width: 720px) {
     grid-template-columns: 1fr;
 }
@@ -38,6 +39,15 @@ color: white;
 font-size: 60px;
 margin: 0;
 line-height: 1.2;
+text-transform: uppercase;
+  line-height: 1.2;
+  opacity: 0;
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  text-shadow: 1px 1px 2px black, 0 0 4px white, 0 0 4px white;
 @media (max-width: 720px){
     font-size: 40px;
 }
@@ -47,11 +57,15 @@ const SectionText = styled.p`
 text-align: justify;
 font-size: 18px;
 color: white;
-text-shadow: 1px 1px 2px black, 0 0 1px white, 0 0 3px black;
+text-shadow: 1px 1px 2px black, 0 0 1px white, 0 0 10px black;
+  line-height: 1.2;
+  opacity: 0;
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 `
-
-
-
 
 const SectionContent = styled.p`
 position: fixed;
@@ -96,20 +110,20 @@ const Section = props => (
         <SectionTitleGroup>
             <SectionTitle>{props.title}</SectionTitle>
             <SectionText><p>Token Description:
-            The SLICK is a decentralized coin that makes it fluent to create easy trading & investing with one and other, family, friends, neighbours, etc.
-            <br />
+                The SLICK is a decentralized coin that makes it fluent to create easy trading & investing with one and other, family, friends, neighbours, etc.
                 <br />
-            Everything at the interest of the peoples positive input is at the interest of SLICK.
-            <br />
                 <br />
-            Conditions of Token
-            Customers & Owners of SLICK are given SLICK for every amount of Dollars, Euro's or which Fiat money they spend at whatever they want to negotiate with.
-            <br />
+                Everything at the interest of the peoples positive input is at the interest of SLICK.
                 <br />
-            Customers can redeem their SLICK for example for coffee, food, and merchandise at any place where SLICK is accepted as currency.
-            <br />
                 <br />
-            The tokensale will start @ 0.0001$
+                Conditions of Token
+                Customers & Owners of SLICK are given SLICK for every amount of Dollars, Euro's or which Fiat money they spend at whatever they want to negotiate with.
+                <br />
+                <br />
+                Customers can redeem their SLICK for example for coffee, food, and merchandise at any place where SLICK is accepted as currency.
+                <br />
+                <br />
+                The tokensale will start @ 0.0001$
             </p></SectionText>
             <SectionContent>{props.content}</SectionContent>
         </SectionTitleGroup>

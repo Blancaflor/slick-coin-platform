@@ -43,7 +43,6 @@ a {
 .Hero h1 {
   margin: 0;
   color: white;
-
   text-transform: uppercase;
   line-height: 1.2;
   opacity: 0;
@@ -192,33 +191,6 @@ a {
   }
 }
 
-.testbutton {
-  background: #f3b800;
-  border-radius: 25px;
-  box-shadow: 0px 1px 0px 0px #fff6af;
-  background: url("../images/Honey2.png");
-  border-radius: 6px;
-  border: 1px solid #ffaa22;
-  display: inline-block;
-  cursor: pointer;
-  color: #333333;
-  font-family: Arial;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #ffee66;
-  height: 100px;
-}
-
-.testbutton:hover {
-  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%) !important;
-  background-color: #ffab23;
-}
-
-.testbutton:active {
-  position: relative;
-  top: 1px;
-}
-
 .Hero2 {
   background: url("../images/GreyHoney.jpg");
   background-size: cover;
@@ -258,7 +230,7 @@ a {
 }
 
 .Hero2 p {
-  color: black;
+  color: white;
   font-size: 24px;
   line-height: 1.5;
   animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -273,8 +245,15 @@ a {
 }
 
 .Hero2 a:hover {
-  background: white;
   color: black;
+  background: url("../images/Honey2.png");
+  transform: scale(1.1, 1.1);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 2px black, 0 0 4px white, 0 0 4px white;
+}
+
+.Hero2 img:hover {
+  transform: translateY(-20px);
 }
 
 @media (max-width: 640px) {
@@ -314,6 +293,18 @@ a {
   grid-gap: 40px;
   margin: 60px 0;
   justify-items: center;
+}
+
+.HeroGroup2 .Account {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 @media (max-width: 640px) {
@@ -456,6 +447,12 @@ a {
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
   border-radius: 100%;
   border: 7px solid #231f20;
+}
+
+.Hero4 .two img:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.3);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Hero4 h1 {
