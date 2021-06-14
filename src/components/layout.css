@@ -200,7 +200,7 @@ a {
 .HeroGroup2 {
   margin: 0 auto;
   max-width: 500px;
-  height: 960px;
+  height: 1000px;
   padding: 150px 50px;
   text-align: center;
 }
@@ -311,6 +311,17 @@ a {
 
 .spacebetween {
   position: relative;
+}
+
+.switch {
+  -moz-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+
+.img2 {
+  padding-top: 100px;
 }
 
 @media (max-width: 640px) {
