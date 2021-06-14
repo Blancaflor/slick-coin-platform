@@ -119,6 +119,7 @@ const IndexPage = () => (
       logo={require('../images/logo-badger.png')?.default}
       title="More coming soon!"
       text=""
+      content=""
     />
 
     <SectionGroup>
