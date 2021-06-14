@@ -28,7 +28,6 @@ grid-template-columns: 300px auto;
 margin: 0 40px;
 grid-gap: 20px;
 grid-template-rows: auto 100%;
-font-size: 80px;
 @media (max-width: 720px) {
     grid-template-columns: 1fr;
 }
