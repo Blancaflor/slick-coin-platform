@@ -1,7 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-/* import logo from '../images/logo-badger.png' */
+import logo from '../images/logo-badger.png'
 import './Header.css'
 class Header extends React.Component {
   constructor(props) {
@@ -31,7 +31,7 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
-          {/*<Link to="/"><img src={logo} width="50" alt="" /></Link>*/}
+          <Link to="/"><img src={logo} width="50" alt="" /></Link>
           <br />
           <Link to="/">Services</Link>
           <Link to="/team&advisors">Team & Advisors</Link>
