@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 /* import logo from '../images/logo-badger.png' */
 import './Header.css'
+
+<link rel="shortcut icon" href="/images/myfavicon.ico"></link>
 class Header extends React.Component {
   constructor(props) {
     super(props)
@@ -31,7 +33,6 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
-        <link rel="shortcut icon" href="/images/myfavicon.ico"></link>
           {/*<Link to="/"><img src={logo} width="50" alt="" /></Link>*/}
           <br />
           <Link to="/">Services</Link>
