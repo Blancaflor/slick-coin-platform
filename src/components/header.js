@@ -33,6 +33,7 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
+        <link rel="shortcut icon" href="/images/myfavicon.ico"></link>
           {/*<Link to="/"><img src={logo} width="50" alt="" /></Link>*/}
           <br />
           <Link to="/">Services</Link>
