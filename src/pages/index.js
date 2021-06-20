@@ -9,6 +9,7 @@ import staticdata from '../../staticdata.json'
 import Cell from "../components/Cell"
 import styled from 'styled-components'
 
+<link rel="shortcut icon" href="/images/myfavicon.ico"></link>
 
 const SectionCaption = styled.p`
   position: relative;
@@ -88,6 +89,17 @@ const IndexPage = () => (
       </SectionGroup>
       <h2>How to invest SLICK?</h2>
       <div className="CardGroup">
+        <a href="https://trustwallet.com/" target="_blank" ><Card
+          title="Get Trust Wallet to buy on PancakeSwap"
+          text="Wallet"
+          image={require("../images/GoldenHoney.png")?.default}
+        /></a>
+        <a href="https://bscscan.com/address/0x72c7989aa5643bf7edbde703517d6f007d0436dc" target="_blank"><Card
+          title="Slick BSC Address"
+          text="Slick Address | QR Code"
+          image={require("../images/GoldenHoney.png")?.default}
+        />
+        </a>
         <a href="https://lobstr.co/" target="_blank" ><Card
           title="Create a Lobstr Account"
           text="Account | Wallet"
@@ -98,17 +110,6 @@ const IndexPage = () => (
           text="Slick Address | QR Code"
           image={require("../images/GoldenHoney.png")?.default}
         /></Link>
-        <a href="https://trustwallet.com/" target="_blank" ><Card
-          title="Create a Trust Wallet or Metamask"
-          text="Wallet"
-          image={require("../images/GoldenHoney.png")?.default}
-        /></a>
-        <a href=""><Card
-          title="Slick PancakeSwap Address"
-          text="Slick Address | QR Code"
-          image={require("../images/GoldenHoney.png")?.default}
-        />
-        </a>
 
       </div>
       <Wave />

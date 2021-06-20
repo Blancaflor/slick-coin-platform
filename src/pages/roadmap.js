@@ -64,8 +64,7 @@ const IndexPage = () => (
         <div className="Hero3">
             <div className="HeroGroup3">
 
-                <br /><br /><br />
-                <br /><br /><br />
+
 
                 <img src={require("../images/logo-badger.png")?.default} width="150" alt="" />
                 <h1>
